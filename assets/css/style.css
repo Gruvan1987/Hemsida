@@ -61,7 +61,7 @@ h1, h2 {
 
 /* hero-image */
 
-#hero-outer {
+#goal {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -74,7 +74,7 @@ h1, h2 {
 
 }
 
-#hero-image {
+#goal-image {
     height: 600px;
     width: 100%;
     background: url('../css/images/Best-Views.jpeg') no-repeat center center;
@@ -88,20 +88,20 @@ h1, h2 {
 
 }
 
-#left-about {
+#left-next {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#right-about {
+#right-next {
     padding-top: 30px;
     width: 33%;
     float: right;
     
 }
 
-#center-about {
+#center-next {
     width: 33%;
     margin: 0 auto;
     
@@ -113,7 +113,7 @@ hr {
     margin: 5px;
 }
 
-.left-about-heading {
+.left-next-heading {
     width: 60%;
     float: right;
     line-height: 20px;
@@ -121,7 +121,7 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading {
+.right-next-heading {
     width: 60%;
     float: left;
     line-height: 20px;
@@ -129,15 +129,15 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading h2 {
+.right-next-heading h2 {
     text-align: right;
 }
 
-.right-about-heading p{
+.right-next-heading p{
     text-align: right;
 }
 
-#welcome {
+#start {
     text-align: center;
     margin: 40px 0;
     font-size: 280%;
@@ -275,24 +275,36 @@ footer {
         margin: 0 auto;
     }
 
-    #welcome {
+    #action {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #start {
         padding: 30px 0;
         margin: 0;
     }
 
-    #left-about, #right-about {
+    #sign-up1 {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-next, #right-next {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #center-about {
-        clear: both;
+    #left-sign {
         width: 100%;
         float: left;
         padding: 0;
     }
-    #right-sign {
+
+    #center-next {
+        clear: both;
         width: 100%;
         clear: both;
         float: left;
@@ -321,6 +333,15 @@ footer {
         line-height: 25px;
     }
 
+    #right-sign {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
     #cover-text {
         left: 0;
     }
@@ -331,16 +352,16 @@ footer {
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
+    .left-next-heading, .right-next-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2 {
+    .left-next-heading h2, .right-next-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p {
+    .left-next-heading p, .right-next-heading p {
         text-align: center;
         padding: 0 20px;
     }
